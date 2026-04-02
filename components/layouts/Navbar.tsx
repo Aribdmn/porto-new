@@ -10,6 +10,16 @@ const Navbar = () => {
 		setIsMobileMenuOpen((prev) => !prev);
 	};
 
+	const list = {
+		visible: { opacity: 1 },
+		hidden: { opacity: 0 },
+	};
+
+	const item = {
+		visible: { opacity: 1, x: 0 },
+		hidden: { opacity: 0, x: -100 },
+	};
+
 	return (
 		<nav className="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl border-b border-white/5">
 			<div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto w-full">
@@ -86,7 +96,7 @@ const Navbar = () => {
 			<AnimatePresence>
 				{isMobileMenuOpen && (
 					<motion.div
-						className="absolute w-full bg-black/60 backdrop-blur-sm border-white/5 flex-col p-6"
+						className="absolute w-full bg-black/60 backdrop-blur-xl border-white/5 flex-col p-6"
 						initial={{ opacity: 0, y: -20 }}
 						animate={{ opacity: 1, y: 0 }}
 						exit={{ opacity: 0, y: -20 }}
@@ -95,92 +105,68 @@ const Navbar = () => {
 							ease: "easeInOut",
 						}}
 					>
-						<div className="flex flex-col gap-4 pb-3">
-							<a
-								className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
-								href="#about"
-								onClick={toggleMobileMenu}
-							>
-								About
-							</a>
-							<a
-								className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
-								href="#skills"
-								onClick={toggleMobileMenu}
-							>
-								Skills
-							</a>
-							<a
-								className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
-								href="#projects"
-								onClick={toggleMobileMenu}
-							>
-								Projects
-							</a>
-							<a
-								className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
-								href="#contact"
-								onClick={toggleMobileMenu}
-							>
-								Contact
-							</a>
-						</div>
-						<hr className="border-white/10" />
-						<div className="flex items-center justify-between pt-3">
-							<button
-								className="bg-[#007BFF] text-white px-8 py-3 rounded-xl font-headline font-bold text-sm"
-								onClick={toggleMobileMenu}
-							>
-								Hire Me
-							</button>
-						</div>
-					</motion.div>
-				)}
-
-				{/* {isMobileMenuOpen && (
-					<div className="md:hidden border">
-						<input
-							className="hidden peer"
-							id="mobile-menu-toggle-nav"
-							type="checkbox"
-						/>
-						<div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[-1] hidden peer-checked:block transition-opacity duration-300"></div>
-						<div className="absolute top-full left-0 w-full bg-[#131313] border-b border-white/5 flex-col p-6 gap-6 hidden peer-checked:flex animate-in slide-in-from-top duration-300">
-							<div className="flex flex-col gap-4">
+						<motion.ul
+							initial="hidden"
+							whileInView="visible"
+							variants={list}
+							className="flex flex-col gap-4 pb-3"
+						>
+							<motion.li variants={item}>
 								<a
 									className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
 									href="#about"
+									onClick={toggleMobileMenu}
 								>
 									About
 								</a>
+							</motion.li>
+							<motion.li variants={item}>
+								{" "}
 								<a
 									className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
 									href="#skills"
+									onClick={toggleMobileMenu}
 								>
 									Skills
 								</a>
+							</motion.li>
+							<motion.li variants={item}>
+								{" "}
 								<a
 									className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
 									href="#projects"
+									onClick={toggleMobileMenu}
 								>
 									Projects
 								</a>
+							</motion.li>
+
+							<motion.li variants={item}>
+								{" "}
 								<a
 									className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
 									href="#contact"
+									onClick={toggleMobileMenu}
 								>
 									Contact
-								</a>
-							</div>
-							<hr className="border-white/10" />
-							<div className="flex items-center justify-between">
-								<button className="bg-[#007BFF] text-white px-8 py-3 rounded-xl font-headline font-bold text-sm">
-									Hire Me
-								</button>
-							</div>
-						</div>
-					</div>
-				)} */}
+								</a>{" "}
+							</motion.li>
+						</motion.ul>
+						<hr className="border-white/10" />
+						<motion.ul initial="hidden" whileInView="visible" variants={list}>
+							<motion.li variants={item}>
+								<div className="flex items-center justify-between pt-3">
+									<button
+										className="bg-[#007BFF] text-white px-8 py-3 rounded-xl font-headline font-bold text-sm"
+										onClick={toggleMobileMenu}
+									>
+										Hire Me
+									</button>
+								</div>{" "}
+							</motion.li>
+						</motion.ul>
+					</motion.div>
+				)}
 			</AnimatePresence>
 		</nav>
 	);
