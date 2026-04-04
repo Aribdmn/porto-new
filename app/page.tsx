@@ -1,3 +1,4 @@
+"use client";
 import Navbar from "@/components/layouts/Navbar";
 import About from "@/components/sections/About";
 import Contact from "@/components/sections/Contact";
@@ -7,7 +8,7 @@ import Skills from "@/components/sections/Skills";
 
 export default function Home() {
 	return (
-		<>
+		<div>
 			<Navbar />
 			<main className="md:pt-24 pt-8">
 				<Hero />
@@ -16,6 +17,6 @@ export default function Home() {
 				<Projects />
 				<Contact />
 			</main>
-		</>
+		</div>
 	);
 }

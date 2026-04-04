@@ -25,20 +25,29 @@ const About = () => {
 				<div className="md:col-span-7">
 					<h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tight mb-8">
 						Passionate about building intuitive,
-						<span className="text-primary-dim">user-centric</span> mobile
+						<span className="text-primary-dim">user-centric</span> software
 						applications...
 					</h2>
 					<div className="space-y-6 text-on-surface-variant text-lg leading-relaxed">
 						<p>
-							With over 5 years of specialized experience in mobile ecosystems,
-							I bridge the gap between creative design and technical
-							feasibility. My approach prioritizes performance and accessibility
-							without compromising on visual flair.
+							With a strong background as a survey programmer, I specialize in
+							transforming complex logic and data requirements into reliable,
+							user-friendly digital solutions. My experience has shaped a
+							detail-oriented mindset, with a focus on accuracy, performance,
+							and seamless user experiences.
 						</p>
 						<p>
-							I believe that every pixel should serve a purpose. Whether it's a
-							fintech solution or a lifestyle app, I focus on creating
-							experiences that feel native to the user's hand.
+							As I expand into software development, I work with modern
+							technologies such as React, Next.js, Laravel, and Flutter to build
+							scalable and efficient applications. I aim to bridge the gap
+							between data, functionality, and design—ensuring every product is
+							not only technically robust but also intuitive to use.
+						</p>
+						<p>
+							I believe every element should serve a purpose, whether developing
+							survey systems or full-stack applications, with a consistent focus
+							on delivering clean, performant, and impactful digital
+							experiences.
 						</p>
 					</div>
 					{/* <div className="mt-10 grid grid-cols-2 gap-8">

@@ -17,8 +17,9 @@ const Hero = () => {
 					</span>
 				</h1>
 				<p className="text-lg md:text-xl text-on-surface-variant max-w-xl mb-10 leading-relaxed">
-					Crafting high-performance mobile experiences with Flutter &amp; React
-					Native. I transform complex ideas into seamless digital realities.
+					Developing high-performance applications across multiple technologies,
+					converting complex requirements into robust and intuitive digital
+					products.
 				</p>
 				<div className="flex flex-wrap gap-4">
 					<a
