@@ -58,7 +58,7 @@ const Navbar = () => {
 					{/* <!-- Right Actions --> */}
 					<div className="flex items-center gap-4">
 						<div className="hidden md:flex items-center gap-4">
-							<button className="bg-gradient-to-br from-[#007BFF] to-[#005eb9] text-white px-6 py-2.5 rounded-xl font-headline font-bold text-sm tracking-tight active:scale-95 transition-all shadow-[0_32px_64px_-15px_rgba(94,158,255,0.06)]">
+							<button className="bg-gradient-to-br from-[#007BFF] to-[#005eb9] text-white px-6 py-2.5 rounded-xl font-headline font-bold text-sm tracking-tight active:scale-95 transition-all shadow-[0_32px_64px_-15px_rgba(94,158,255,0.06)] hover:scale-105">
 								Hire Me
 							</button>
 						</div>

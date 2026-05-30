@@ -6,7 +6,7 @@ const Projects = () => {
 			<div className="max-w-7xl mx-auto">
 				<div className="flex flex-col items-center text-center mb-16">
 					<h2 className="text-4xl font-headline font-extrabold tracking-tighter mb-8">
-						Selected Projects
+						Projects & Experiments
 					</h2>
 					{/* <!-- Filters --> */}
 					<div className="flex p-1 bg-surface-container-low rounded-full">
@@ -49,7 +49,7 @@ const Projects = () => {
 								and real-time market tracking.
 							</p>
 							<div className="mt-auto flex gap-4">
-								<button className="flex-1 bg-primary text-on-primary py-3 rounded-xl font-headline font-bold text-sm flex items-center justify-center gap-2">
+								<button className="flex-1 bg-primary text-on-primary py-3 rounded-xl font-headline font-bold text-sm flex items-center justify-center gap-2 hover:scale-105 transtition duration-300 ease-in-out">
 									<span
 										className="material-symbols-outlined text-lg"
 										data-icon="visibility"
@@ -58,7 +58,7 @@ const Projects = () => {
 									</span>
 									Preview
 								</button>
-								<button className="p-3 border border-outline-variant/30 rounded-xl hover:bg-surface-container-high transition-colors">
+								<button className="p-3 border border-outline-variant/30 rounded-xl hover:bg-surface-container-high transition-colors hover:scale-105 transtition duration-300 ease-in-out">
 									<span className="material-symbols-outlined" data-icon="code">
 										code
 									</span>
@@ -91,7 +91,7 @@ const Projects = () => {
 								meditation guides.
 							</p>
 							<div className="mt-auto flex gap-4">
-								<button className="flex-1 bg-primary text-on-primary py-3 rounded-xl font-headline font-bold text-sm flex items-center justify-center gap-2">
+								<button className="flex-1 bg-primary text-on-primary py-3 rounded-xl font-headline font-bold text-sm flex items-center justify-center gap-2 hover:scale-105 transtition duration-300 ease-in-out">
 									<span
 										className="material-symbols-outlined text-lg"
 										data-icon="visibility"
@@ -100,7 +100,7 @@ const Projects = () => {
 									</span>
 									Preview
 								</button>
-								<button className="p-3 border border-outline-variant/30 rounded-xl hover:bg-surface-container-high transition-colors">
+								<button className="p-3 border border-outline-variant/30 rounded-xl hover:bg-surface-container-high transition-colors hover:scale-105 transtition duration-300 ease-in-out">
 									<span className="material-symbols-outlined" data-icon="code">
 										code
 									</span>
@@ -135,7 +135,7 @@ const Projects = () => {
 								lightning-fast checkout experience.
 							</p>
 							<div className="mt-auto flex gap-4">
-								<button className="flex-1 bg-primary text-on-primary py-3 rounded-xl font-headline font-bold text-sm flex items-center justify-center gap-2">
+								<button className="flex-1 bg-primary text-on-primary py-3 rounded-xl font-headline font-bold text-sm flex items-center justify-center gap-2 hover:scale-105 transtition duration-300 ease-in-out">
 									<span
 										className="material-symbols-outlined text-lg"
 										data-icon="visibility"
@@ -144,7 +144,7 @@ const Projects = () => {
 									</span>
 									Preview
 								</button>
-								<button className="p-3 border border-outline-variant/30 rounded-xl hover:bg-surface-container-high transition-colors">
+								<button className="p-3 border border-outline-variant/30 rounded-xl hover:bg-surface-container-high transition-colors hover:scale-105 transtition duration-300 ease-in-out">
 									<span className="material-symbols-outlined" data-icon="code">
 										code
 									</span>

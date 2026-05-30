@@ -11,7 +11,8 @@ const Skills = () => {
 						</h2>
 						<p className="text-on-surface-variant">
 							The tools and languages I leverage to build robust, scalable
-							applications across platforms.
+							applications across platforms.{" "}
+							<em>I'm constantly adding new ones to my belt.</em>
 						</p>
 					</div>
 					<div className="flex gap-2 text-on-surface-variant font-label text-xs uppercase tracking-widest border-b border-outline-variant/20 pb-2">
@@ -22,15 +23,64 @@ const Skills = () => {
 				</div>
 				<div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
 					{/* front end */}
+					{/* <!-- Skill Card 4 --> */}
+					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
+						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
+							<svg
+								role="img"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+								className="text-primary-dim"
+								fill="currentColor"
+							>
+								<path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+							</svg>
+						</div>
+						<span className="font-headline font-bold text-on-surface">
+							JavaScript
+						</span>
+					</div>
+
+					{/* <!-- Skill Card 5 --> */}
+					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
+						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
+							<svg
+								role="img"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+								className="text-primary-dim"
+								fill="currentColor"
+							>
+								<path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z" />
+							</svg>
+						</div>
+						<span className="font-headline font-bold text-on-surface">
+							TypeScript
+						</span>
+					</div>
+
+					{/* <!-- Skill Card 12 --> */}
+					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
+						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
+							<svg
+								role="img"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+								className="text-primary-dim"
+								fill="currentColor"
+							>
+								<path d="M11.914 0C5.82 0 6.2 2.656 6.2 2.656l.007 2.752h5.814v.826H3.898S0 5.789 0 11.969c0 6.18 3.403 5.963 3.403 5.963h2.03v-2.869s-.109-3.402 3.35-3.402h5.766s3.24.052 3.24-3.131V3.19S18.28 0 11.914 0zm-3.21 1.84a1.039 1.039 0 1 1 0 2.078 1.039 1.039 0 0 1 0-2.078z" />
+								<path d="M12.086 24c6.094 0 5.714-2.656 5.714-2.656l-.007-2.752h-5.814v-.826h8.123S24 18.211 24 12.031c0-6.18-3.403-5.963-3.403-5.963h-2.03v2.869s.109 3.402-3.35 3.402H9.451s-3.24-.052-3.24 3.131v5.31S5.72 24 12.086 24zm3.21-1.84a1.039 1.039 0 1 1 0-2.078 1.039 1.039 0 0 1 0 2.078z" />
+							</svg>
+						</div>
+						<span className="font-headline font-bold text-on-surface">
+							Python
+						</span>
+					</div>
+
 					{/* <!-- Skill Card 1 --> */}
 					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
 						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
-							{/* <span
-								className="material-symbols-outlined text-4xl"
-								data-icon="react"
-							>
-								reactjs
-							</span> */}
 							<svg
 								className="text-primary-dim"
 								aria-hidden="true"
@@ -80,42 +130,8 @@ const Skills = () => {
 							Tailwind CSS
 						</span>
 					</div>
-					{/* <!-- Skill Card 4 --> */}
-					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
-						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
-							<svg
-								role="img"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-								className="text-primary-dim"
-								fill="currentColor"
-							>
-								<path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
-							</svg>
-						</div>
-						<span className="font-headline font-bold text-on-surface">
-							JavaScript
-						</span>
-					</div>
-					{/* <!-- Skill Card 5 --> */}
-					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
-						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
-							<svg
-								role="img"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-								className="text-primary-dim"
-								fill="currentColor"
-							>
-								<path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z" />
-							</svg>
-						</div>
-						<span className="font-headline font-bold text-on-surface">
-							TypeScript
-						</span>
-					</div>
 
-					{/* <!-- Skill Card 5 --> */}
+					{/* <!-- Skill Card 6 --> */}
 					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
 						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
 							<svg
@@ -136,7 +152,7 @@ const Skills = () => {
 							Laravel
 						</span>
 					</div>
-					{/* <!-- Skill Card 6 --> */}
+					{/* <!-- Skill Card 7 --> */}
 					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
 						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
 							<svg
@@ -153,7 +169,25 @@ const Skills = () => {
 							MySQL
 						</span>
 					</div>
-					{/* <!-- Skill Card 7 --> */}
+
+					{/* <!-- Skill Card 9 --> */}
+					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
+						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
+							<svg
+								role="img"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+								className="text-primary-dim"
+								fill="currentColor"
+							>
+								<path d="M11.9 1.036c-.015-.986-1.26-1.41-1.874-.637L.764 12.05C-.33 13.427.65 15.455 2.409 15.455h9.579l.032 7.51c.015.985 1.26 1.409 1.874.636l9.262-11.651c1.093-1.375.113-3.403-1.645-3.403h-9.58z" />
+							</svg>
+						</div>
+						<span className="font-headline font-bold text-on-surface">
+							Supabase
+						</span>
+					</div>
+					{/* <!-- Skill Card 8 --> */}
 					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
 						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
 							<svg
@@ -176,27 +210,8 @@ const Skills = () => {
 							Rest API
 						</span>
 					</div>
-					{/* <!-- Skill Card 4 --> */}
-					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
-						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
-							<svg
-								role="img"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-								className="text-primary-dim"
-								fill="currentColor"
-							>
-								<path
-									stroke="currentColor"
-									d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"
-								/>
-							</svg>
-						</div>
-						<span className="font-headline font-bold text-on-surface">
-							Flutter
-						</span>
-					</div>
-					{/* <!-- Skill Card 8 --> */}
+
+					{/* <!-- Skill Card 10 --> */}
 					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
 						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
 							<svg
@@ -227,29 +242,6 @@ const Skills = () => {
 						<span className="font-headline font-bold text-on-surface">
 							Vercel
 						</span>
-					</div>
-					{/* <!-- Skill Card 12 --> */}
-					<div className="group p-8 bg-surface-container rounded-2xl hover:bg-surface-container-high transition-all duration-300 flex flex-col items-center text-center">
-						<div className="w-12 h-12 mb-4 flex items-center justify-center text-primary-dim">
-							<svg
-								role="img"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-								className="text-primary-dim"
-								fill="currentColor"
-							>
-								<g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-								<g
-									id="SVGRepo_tracerCarrier"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-								></g>
-								<g id="SVGRepo_iconCarrier">
-									<path d="M10.2 0v6.456L12 8.928l1.8-2.472V0zm3.6 6.456v3.072l2.904-.96L20.52 3.36l-2.928-2.136zm2.904 2.112l-1.8 2.496 2.928.936 6.144-1.992-1.128-3.432zM17.832 12l-2.928.936 1.8 2.496 6.144 1.992 1.128-3.432zm-1.128 3.432l-2.904-.96v3.072l3.792 5.232 2.928-2.136zM13.8 17.544L12 15.072l-1.8 2.472V24h3.6zm-3.6 0v-3.072l-2.904.96L3.48 20.64l2.928 2.136zm-2.904-2.112l1.8-2.496L6.168 12 .024 13.992l1.128 3.432zM6.168 12l2.928-.936-1.8-2.496-6.144-1.992-1.128 3.432zm1.128-3.432l2.904.96V6.456L6.408 1.224 3.48 3.36Z"></path>
-								</g>
-							</svg>
-						</div>
-						<span className="font-headline font-bold text-on-surface">JWT</span>
 					</div>
 				</div>
 			</div>

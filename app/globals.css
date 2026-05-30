@@ -11,9 +11,13 @@
 	--primary: #a9c7ff;
 	--primary-dim: #5e9eff;
 	--primary-container: #026bd2;
+	--on-primary: #003f80;
+	--on-primary-container: #ffffff;
 
 	--secondary: #bfc8d0;
 	--secondary-container: #343c44;
+	--on-secondary: #384148;
+	--on-secondary-container: #b7c0c9;
 
 	--surface: #0e0e0e;
 	--surface-container: #191a1a;
@@ -49,6 +53,12 @@
 	--color-surface-container-low: var(--surface-container-low);
 	--color-surface-container-high: var(--surface-container-high);
 	--color-surface-container-highest: var(--surface-container-highest);
+
+	--color-on-primary: var(--on-primary);
+	--color-on-primary-container: var(--on-primary-container);
+
+	--color-on-secondary: var(--on-secondary);
+	--color-on-secondary-container: var(--on-secondary-container);
 
 	--color-on-surface: var(--on-surface);
 	--color-on-surface-variant: var(--on-surface-variant);
