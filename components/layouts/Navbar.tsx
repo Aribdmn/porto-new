@@ -32,19 +32,19 @@ const Navbar = () => {
 					<div className="hidden md:flex items-center gap-8">
 						<a
 							className="text-[#acabaa] hover:text-primary transition-colors duration-300 font-headline tracking-tight text-sm font-medium uppercase"
-							href="#about"
+							href="/#about"
 						>
 							About
 						</a>
 						<a
 							className="text-[#acabaa] hover:text-primary transition-colors duration-300 font-headline tracking-tight text-sm font-medium uppercase"
-							href="#skills"
+							href="/#skills"
 						>
 							Skills
 						</a>
 						<a
 							className="text-[#acabaa] hover:text-primary transition-colors duration-300 font-headline tracking-tight text-sm font-medium uppercase"
-							href="#projects"
+							href="/#projects"
 						>
 							Projects
 						</a>
@@ -100,7 +100,7 @@ const Navbar = () => {
 							<motion.li variants={item}>
 								<a
 									className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
-									href="#about"
+									href="/#about"
 									onClick={toggleMobileMenu}
 								>
 									About
@@ -110,7 +110,7 @@ const Navbar = () => {
 								{" "}
 								<a
 									className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
-									href="#skills"
+									href="/#skills"
 									onClick={toggleMobileMenu}
 								>
 									Skills
@@ -120,7 +120,7 @@ const Navbar = () => {
 								{" "}
 								<a
 									className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
-									href="#projects"
+									href="/#projects"
 									onClick={toggleMobileMenu}
 								>
 									Projects
@@ -131,7 +131,7 @@ const Navbar = () => {
 								{" "}
 								<a
 									className="text-[#acabaa] hover:text-primary font-headline font-medium uppercase text-sm"
-									href="#contact"
+									href="/#contact"
 									onClick={toggleMobileMenu}
 								>
 									Contact
