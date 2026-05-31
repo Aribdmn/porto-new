@@ -40,7 +40,7 @@ const page = () => {
 								represents a unique challenge and solution.
 							</p>
 							{/* <!-- Filters --> */}
-							<div className="flex p-1 bg-surface-container-low rounded-full">
+							{/* <div className="flex p-1 bg-surface-container-low rounded-full">
 								<button className="px-8 py-2.5 rounded-full bg-primary text-on-primary font-headline font-bold text-sm transition-all">
 									All
 								</button>
@@ -50,7 +50,7 @@ const page = () => {
 								<button className="px-8 py-2.5 rounded-full text-on-surface-variant font-headline font-bold text-sm hover:text-on-surface transition-all">
 									Web Apps
 								</button>
-							</div>
+							</div> */}
 						</div>
 						<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 							{projects.map((project, key) => (
