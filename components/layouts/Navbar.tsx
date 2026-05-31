@@ -26,7 +26,7 @@ const Navbar = () => {
 				<div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto w-full">
 					{/* <!-- Brand Logo --> */}
 					<div className="text-xl font-bold tracking-tighter text-primary font-headline">
-						<a href="#hero">BudDev!</a>
+						<a href="/">BudDev!</a>
 					</div>
 					{/* <!-- Desktop Navigation Links --> */}
 					<div className="hidden md:flex items-center gap-8">
@@ -58,9 +58,11 @@ const Navbar = () => {
 					{/* <!-- Right Actions --> */}
 					<div className="flex items-center gap-4">
 						<div className="hidden md:flex items-center gap-4">
-							<button className="bg-gradient-to-br from-[#007BFF] to-[#005eb9] text-white px-6 py-2.5 rounded-xl font-headline font-bold text-sm tracking-tight active:scale-95 transition-all shadow-[0_32px_64px_-15px_rgba(94,158,255,0.06)] hover:scale-105">
-								Hire Me
-							</button>
+							<a href="#contact">
+								<button className="bg-gradient-to-br from-[#007BFF] to-[#005eb9] text-white px-6 py-2.5 rounded-xl font-headline font-bold text-sm tracking-tight active:scale-95 transition-all shadow-[0_32px_64px_-15px_rgba(94,158,255,0.06)] hover:scale-105">
+									Hire Me
+								</button>
+							</a>
 						</div>
 						{/* <!-- Mobile Menu Toggle --> */}
 						<button
@@ -140,12 +142,14 @@ const Navbar = () => {
 						<motion.ul initial="hidden" animate="visible" variants={list}>
 							<motion.li variants={item}>
 								<div className="flex items-center justify-between pt-3">
-									<button
-										className="bg-[#007BFF] text-white px-8 py-3 rounded-xl font-headline font-bold text-sm"
-										onClick={toggleMobileMenu}
-									>
-										Hire Me
-									</button>
+									<a href="#contact">
+										<button
+											className="bg-[#007BFF] text-white px-8 py-3 rounded-xl font-headline font-bold text-sm"
+											onClick={toggleMobileMenu}
+										>
+											Hire Me
+										</button>
+									</a>
 								</div>{" "}
 							</motion.li>
 						</motion.ul>
