@@ -26,7 +26,10 @@ const Navbar = () => {
 				<div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto w-full">
 					{/* <!-- Brand Logo --> */}
 					<div className="text-xl font-bold tracking-tighter text-primary font-headline">
-						<a href="/">BudDev!</a>
+						<a href="/" className="flex items-center-safe">
+							<img src="/logo.webp" alt="logo" className="size-7" />
+							<span>BudDev!</span>
+						</a>
 					</div>
 					{/* <!-- Desktop Navigation Links --> */}
 					<div className="hidden md:flex items-center gap-8">
