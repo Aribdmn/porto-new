@@ -17,8 +17,6 @@ const Projects = () => {
 		fetchProjects();
 	}, []);
 
-	console.log(projects);
-
 	return (
 		<section className="py-32 px-8 md:px-12 bg-surface" id="projects">
 			<div className="max-w-7xl mx-auto">
