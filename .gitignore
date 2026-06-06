@@ -1,0 +1,40 @@
+# --- Next.js (Frontend) ---
+frontend/.next/
+frontend/node_modules/
+frontend/.turbo/
+frontend/out/
+frontend/.env*.local
+frontend/.env.production.local
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+
+# --- Django (Backend) ---
+backend/venv/
+backend/__pycache__/
+backend/db.sqlite3
+backend/.env
+backend/media/
+
+# --- General Dependencies ---
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# --- Logs & Debug ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- System & Misc ---
+.DS_Store
+*.pem
+.vercel
+/build
+/coverage
